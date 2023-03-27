@@ -1,0 +1,19 @@
+// Step 1
+pip install beautifulsoup4
+
+
+// Step 2 
+pip install requests
+
+
+// Tutorial Series 
+https://www.youtube.com/watch?v=gRLHr664tXA&list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK
+
+
+// Documentation
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+
+// Theatre.js
+https://www.theatrejs.com/
+
