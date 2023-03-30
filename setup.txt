@@ -6,6 +6,10 @@ pip install beautifulsoup4
 pip install requests
 
 
+// If .env file is used
+pip install python-dotenv
+
+
 // Tutorial Series 
 https://www.youtube.com/watch?v=gRLHr664tXA&list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK
 
