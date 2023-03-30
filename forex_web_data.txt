@@ -1,0 +1,12 @@
+Extract the below data from relevent websites:
+
+1) GDP Growth Rate - https://tradingeconomics.com/european-union/gdp
+2) Unemployement Rate - https://tradingeconomics.com/european-union/unemployment-rate
+3) Core Inflation Rate - https://tradingeconomics.com/european-union/core-inflation-rate
+4) Extract Entire Forex Sentiment (Might have free api) - https://www.myfxbook.com/community/outlook
+5) Get COT Data :
+   i) A1 EdgeFinder - COT Data - https://a1trading.com/market-analysis/cot/
+
+   ii) EURO FX - CHICAGO MERCANTILE EXCHANGE - https://www.cftc.gov/dea/futures/deacmesf.htm
+       Long Percentage: (long/long+short ) * 100
+       Short Percentage: (short/long+short ) * 100
