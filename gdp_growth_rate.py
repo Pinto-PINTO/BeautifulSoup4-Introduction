@@ -6,6 +6,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+#   Extracted European Union GDP & GDP Growth Rate
+#   Website: https://tradingeconomics.com/european-union/gdp
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+
+
 # Preventing Window from opening
 options = Options()
 options.add_argument('--headless')

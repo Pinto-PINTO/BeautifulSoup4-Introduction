@@ -10,3 +10,18 @@ Extract the below data from relevent websites:
    ii) EURO FX - CHICAGO MERCANTILE EXCHANGE - https://www.cftc.gov/dea/futures/deacmesf.htm
        Long Percentage: (long/long+short ) * 100
        Short Percentage: (short/long+short ) * 100
+
+  iii) COT Data - https://www.tradingster.com/cot/legacy-futures/090741
+       Non-Commercial
+       Long Percentage: (long/long+short ) * 100
+       Short Percentage: (short/long+short ) * 100
+
+6) Interest Rate for Each Currency
+   Example for USD Interest Rate - https://tradingeconomics.com/united-states/interest-rate
+   Get the "United States Fed Funds Rate" : Actual & Previous
+
+7) Currency Pair Popularity (Daily & Weekly)
+   Example for AUDUSD - https://www.tradingview.com/symbols/AUDUSD/
+   Get Daily and Weekly Percentages
+
+8) A1 EdgeFinder Website - https://a1trading.com/a1-edgefinder-get-access-to-forex-data-now/

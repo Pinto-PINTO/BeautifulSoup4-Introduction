@@ -2,6 +2,15 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+#   Extracted Forex Sentiment 
+#   Website: https://www.myfxbook.com/community/outlook
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+
+
 url = "https://www.myfxbook.com/community/outlook"
 result = requests.get(url).text
 doc = BeautifulSoup(result, "html.parser")
