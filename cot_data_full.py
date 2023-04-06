@@ -1,6 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
-import re
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+
+cred = credentials.Certificate('multi-asset-analyzer-firebase-adminsdk-1os8a-a801228422.json')
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://multi-asset-analyzer-default-rtdb.firebaseio.com'
+})
+
+
 
 # ------------------------------------------------------------------
 # ------------------------------------------------------------------
@@ -113,13 +122,15 @@ for i in range(len(symbol_and_links)):
         short_percentage_value = str(round(short_percentage, 2)) + '%'
             
         record = {}
-        record["symbol"] = symbol_and_links[i]["symbol"]
+        # record["symbol"] = symbol_and_links[i]["symbol"]
         record["long_percent"] = long_percentage_value
         record["short_percent"] = short_percentage_value
         
         COT_Percentages.append(record)
 
-
+        ref = db.reference('COT').child(symbol_and_links[i]["symbol"])
+        data = record
+        ref.set(data)
     
 print(COT_Percentages)
 
